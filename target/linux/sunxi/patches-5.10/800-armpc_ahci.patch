@@ -1,0 +1,13 @@
+Index: linux-5.10.155/arch/arm/boot/dts/sunxi-common-regulators.dtsi
+===================================================================
+--- linux-5.10.155.orig/arch/arm/boot/dts/sunxi-common-regulators.dtsi
++++ linux-5.10.155/arch/arm/boot/dts/sunxi-common-regulators.dtsi
+@@ -52,7 +52,7 @@
+ 		regulator-max-microvolt = <5000000>;
+ 		regulator-boot-on;
+ 		enable-active-high;
+-		gpio = <&pio 1 8 GPIO_ACTIVE_HIGH>;
++		gpio = <&pio 7 17 GPIO_ACTIVE_HIGH>;
+ 		status = "disabled";
+ 	};
+ 
