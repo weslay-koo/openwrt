@@ -175,7 +175,7 @@ jobs:
           CONFIG_DEFAULT_base-files=y
           CONFIG_DEFAULT_busybox=y
           CONFIG_DEFAULT_ca-bundle=y
-          #CONFIG_DEFAULT_dnsmasq=y
+          CONFIG_DEFAULT_dnsmasq=y
           CONFIG_DEFAULT_dropbear=y
           CONFIG_DEFAULT_e2fsprogs=y
           CONFIG_DEFAULT_firewall4=y
@@ -1628,7 +1628,7 @@ jobs:
           # CONFIG_PACKAGE_busybox-selinux is not set
           CONFIG_PACKAGE_ca-bundle=y
           CONFIG_PACKAGE_ca-certificates=y
-          #CONFIG_PACKAGE_dnsmasq=y
+          # CONFIG_PACKAGE_dnsmasq is not set
           # CONFIG_PACKAGE_dnsmasq-dhcpv6 is not set
           CONFIG_PACKAGE_dnsmasq-full=y
           CONFIG_PACKAGE_dropbear=y
