@@ -1627,7 +1627,7 @@ jobs:
           # CONFIG_BUSYBOX_DEFAULT_FEATURE_KMSG_SYSLOG is not set
           # CONFIG_PACKAGE_busybox-selinux is not set
           CONFIG_PACKAGE_ca-bundle=y
-          # CONFIG_PACKAGE_ca-certificates is not set
+          CONFIG_PACKAGE_ca-certificates=y
           # CONFIG_PACKAGE_dnsmasq is not set
           # CONFIG_PACKAGE_dnsmasq-dhcpv6 is not set
           CONFIG_PACKAGE_dnsmasq-full=y
@@ -2372,7 +2372,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-ipt-delude is not set
           # CONFIG_PACKAGE_kmod-ipt-dhcpmac is not set
           # CONFIG_PACKAGE_kmod-ipt-dnetmap is not set
-          # CONFIG_PACKAGE_kmod-ipt-extra is not set
+          CONFIG_PACKAGE_kmod-ipt-extra=y
           # CONFIG_PACKAGE_kmod-ipt-filter is not set
           # CONFIG_PACKAGE_kmod-ipt-fuzzy is not set
           # CONFIG_PACKAGE_kmod-ipt-geoip is not set
@@ -2409,7 +2409,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-ipt-sysrq is not set
           # CONFIG_PACKAGE_kmod-ipt-tarpit is not set
           # CONFIG_PACKAGE_kmod-ipt-tee is not set
-          # CONFIG_PACKAGE_kmod-ipt-tproxy is not set
+          CONFIG_PACKAGE_kmod-ipt-tproxy=y
           # CONFIG_PACKAGE_kmod-ipt-u32 is not set
           # CONFIG_PACKAGE_kmod-netatop is not set
           CONFIG_PACKAGE_kmod-nf-conntrack=y
@@ -2428,7 +2428,7 @@ jobs:
           CONFIG_PACKAGE_kmod-nf-reject=y
           CONFIG_PACKAGE_kmod-nf-reject6=y
           # CONFIG_PACKAGE_kmod-nf-socket is not set
-          # CONFIG_PACKAGE_kmod-nf-tproxy is not set
+          CONFIG_PACKAGE_kmod-nf-tproxy=y
           CONFIG_PACKAGE_kmod-nfnetlink=y
           # CONFIG_PACKAGE_kmod-nfnetlink-log is not set
           # CONFIG_PACKAGE_kmod-nfnetlink-queue is not set
@@ -4552,6 +4552,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-xfrpc is not set
           # CONFIG_PACKAGE_luci-app-xinetd is not set
           # CONFIG_PACKAGE_luci-app-yggdrasil is not set
+          CONFIG_PACKAGE_luci-app-openclash=y
           # end of 3. Applications
 
           #
@@ -6038,7 +6039,6 @@ jobs:
           # CONFIG_PACKAGE_wwan is not set
           # CONFIG_PACKAGE_xinetd is not set
           # CONFIG_PACKAGE_xray-core is not set
-          CONFIG_PACKAGE_luci-app-openclash=y
           # end of Network
 
           #
