@@ -6038,6 +6038,7 @@ jobs:
           # CONFIG_PACKAGE_wwan is not set
           # CONFIG_PACKAGE_xinetd is not set
           # CONFIG_PACKAGE_xray-core is not set
+          CONFIG_PACKAGE_luci-app-openclash=y
           # end of Network
 
           #
