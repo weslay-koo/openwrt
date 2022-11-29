@@ -4538,7 +4538,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-transmission is not set
           # CONFIG_PACKAGE_luci-app-travelmate is not set
           # CONFIG_PACKAGE_luci-app-ttyd is not set
-          # CONFIG_PACKAGE_luci-app-udpxy is not set
+          CONFIG_PACKAGE_luci-app-udpxy is not set
           CONFIG_PACKAGE_luci-app-uhttpd=y
           # CONFIG_PACKAGE_luci-app-unbound is not set
           CONFIG_PACKAGE_luci-app-upnp=y
@@ -6013,7 +6013,7 @@ jobs:
           CONFIG_PACKAGE_uclient-fetch=y
           # CONFIG_PACKAGE_udhcpsnoop is not set
           # CONFIG_PACKAGE_udptunnel is not set
-          # CONFIG_PACKAGE_udpxy is not set
+          CONFIG_PACKAGE_udpxy is not set
           # CONFIG_PACKAGE_ulogd is not set
           # CONFIG_PACKAGE_umdns is not set
           # CONFIG_PACKAGE_unet-cli is not set
