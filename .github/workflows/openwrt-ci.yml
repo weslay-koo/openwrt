@@ -2458,7 +2458,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-ifb is not set
           # CONFIG_PACKAGE_kmod-ipvlan is not set
           CONFIG_PACKAGE_kmod-libphy=y
-          # CONFIG_PACKAGE_kmod-macvlan is not set
+          CONFIG_PACKAGE_kmod-macvlan=y
           # CONFIG_PACKAGE_kmod-mdio-gpio is not set
           CONFIG_PACKAGE_kmod-mii=y
           # CONFIG_PACKAGE_kmod-net-selftests is not set
