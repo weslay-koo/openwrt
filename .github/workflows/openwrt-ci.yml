@@ -2980,6 +2980,7 @@ jobs:
           # CONFIG_PACKAGE_lua-eco-sys is not set
           # CONFIG_PACKAGE_lua-eco-ubus is not set
           # CONFIG_PACKAGE_lua-ev is not set
+          # CONFIG_PACKAGE_lua-examples is not set
           # CONFIG_PACKAGE_lua-libmodbus is not set
           # CONFIG_PACKAGE_lua-lzlib is not set
           # CONFIG_PACKAGE_lua-md5 is not set
@@ -4136,7 +4137,8 @@ jobs:
           # CONFIG_PACKAGE_libbsd is not set
           CONFIG_PACKAGE_libcap=y
           # CONFIG_PACKAGE_libcap-bin is not set
-          # CONFIG_PACKAGE_libcap-ng is not set
+          CONFIG_PACKAGE_libcap-ng=y
+          # CONFIG_PACKAGE_libcap-ng-bin is not set
           # CONFIG_PACKAGE_libcares is not set
           CONFIG_PACKAGE_libcbor=y
           # CONFIG_PACKAGE_libcgroup is not set
