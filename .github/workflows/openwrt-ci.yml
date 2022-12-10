@@ -69,15 +69,15 @@ jobs:
           git pull origin master
           git branch --set-upstream-to=origin/master master
 
-      # - name: JDdailybonus
-      #   run: |
-      #     mkdir package/luci-app-jd-dailybonus
-      #     cd package/luci-app-jd-dailybonus
-      #     git init
-      #     git remote add -f origin https://github.com/jerrykuku/luci-app-jd-dailybonus.git
-      #     echo "luci-app-jd-dailybonus" >> .git/info/sparse-checkout
-      #     git pull origin master
-      #     git branch --set-upstream-to=origin/master master
+      - name: JDdailybonus
+        run: |
+          mkdir package/luci-app-jd-dailybonus
+          cd package/luci-app-jd-dailybonus
+          git init
+          git remote add -f origin https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+          echo "luci-app-jd-dailybonus" >> .git/info/sparse-checkout
+          git pull origin master
+          git branch --set-upstream-to=origin/master master
 
       - name: Update feeds
         run: |
@@ -4535,6 +4535,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-xinetd is not set
           # CONFIG_PACKAGE_luci-app-yggdrasil is not set
           CONFIG_PACKAGE_luci-app-openclash=y
+          CONFIG_PACKAGE_luci-app-jd-dailybonus=y
           # end of 3. Applications
 
           #
