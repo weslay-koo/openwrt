@@ -2,7 +2,7 @@
 #src-git-full targets https://github.com/openwrt/targets.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git packages https://gitee.com/null_363/packages.git
-src-git luci https://gitee.com/null_363/luci.git
-src-git routing https://gitee.com/null_363/routing.git
-src-git telephony https://gitee.com/null_363/telephony.git
+src-git packages http://gitee.com/null_363/packages.git
+src-git luci http://gitee.com/null_363/luci.git
+src-git routing http://gitee.com/null_363/routing.git
+src-git telephony http://gitee.com/null_363/telephony.git
