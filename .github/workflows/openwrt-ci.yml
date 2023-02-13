@@ -12,7 +12,7 @@ name: OpenWrt-CI
 on:
   push:
     branches: 
-      - ARMPC_21.02
+      - master
   # schedule:
   #   - cron: 0 20 * * *
   release:
