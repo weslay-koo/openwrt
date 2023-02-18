@@ -1,7 +1,7 @@
 Index: linux-5.10.155/arch/arm/boot/dts/sunxi-common-regulators.dtsi
 ===================================================================
---- linux-5.10.155.orig/arch/arm/boot/dts/sunxi-common-regulators.dtsi
-+++ linux-5.10.155/arch/arm/boot/dts/sunxi-common-regulators.dtsi
+--- a/arch/arm/boot/dts/sunxi-common-regulators.dtsi
++++ b/arch/arm/boot/dts/sunxi-common-regulators.dtsi
 @@ -52,7 +52,7 @@
  		regulator-max-microvolt = <5000000>;
  		regulator-boot-on;
