@@ -63,15 +63,15 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
     - name: Clone OpenClash code
-        run: |
-          mkdir openwrt/package/luci-app-openclash
-          cd openwrt/package/luci-app-openclash
-          git init
-          git remote add -f origin https://github.com/vernesong/OpenClash.git
-          git config core.sparsecheckout true
-          echo "luci-app-openclash" >> .git/info/sparse-checkout
-          git pull origin master
-          git branch --set-upstream-to=origin/master master
+      run: |
+        mkdir openwrt/package/luci-app-openclash
+        cd openwrt/package/luci-app-openclash
+        git init
+        git remote add -f origin https://github.com/vernesong/OpenClash.git
+        git config core.sparsecheckout true
+        echo "luci-app-openclash" >> .git/info/sparse-checkout
+        git pull origin master
+        git branch --set-upstream-to=origin/master master
 
     - name: Load custom feeds
       run: |
