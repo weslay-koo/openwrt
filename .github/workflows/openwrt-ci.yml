@@ -73,16 +73,16 @@ jobs:
     #     git pull origin master
     #     git branch --set-upstream-to=origin/master master
 
-    # - name: Clone DiskMan code
-    #   run: |
-    #     mkdir openwrt/package/luci-app-diskman
-    #     cd openwrt/package/luci-app-diskman
-    #     git init
-    #     git remote add -f origin https://github.com/lisaac/luci-app-diskman.git
-    #     git config core.sparsecheckout true
-    #     echo "luci-app-diskman" >> .git/info/sparse-checkout
-    #     git pull origin master
-    #     git branch --set-upstream-to=origin/master master
+    - name: Clone DiskMan code
+      run: |
+        mkdir openwrt/package/luci-app-diskman
+        cd openwrt/package/luci-app-diskman
+        git init
+        git remote add -f origin https://github.com/lisaac/luci-app-diskman.git
+        git config core.sparsecheckout true
+        echo "luci-app-diskman" >> .git/info/sparse-checkout
+        git pull origin master
+        git branch --set-upstream-to=origin/master master
 
 
     - name: Load custom feeds
